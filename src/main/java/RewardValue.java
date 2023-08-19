@@ -2,7 +2,7 @@
 public class RewardValue{
     private double cashValue;
     private int milesValue;
-    final double MILES_TO_CASH_CONVERSION_RATE = 0.0035;
+    public static final double MILES_TO_CASH_CONVERSION_RATE = 0.0035;
 
     //constructors
     public RewardValue(double cash){
